@@ -10,9 +10,9 @@ Absolutely not.
 
 ## I want to use it anyway
 
-The following is an example program the prints `Hello!` to the console. Clone the repo, run `npm i` & `npm run ts:build`. Save the program in a file called `program.tsjit`and run`npm run start`.
+The following is an example program the prints `Hello!` to the console. Clone the repo, run `npm i` & `npm run ts:build`. Save the program in a file called `program.tsjit` and run `npm run start`.
 
-There are 256 available spaces in the "memory", which you can fill with [decimal numbers which correlate to ASCII characters](https://www.asciitable.com/). There are 7 Opcodes at the moment: `POS`, `GET`, `SET`, `DEBUG`, `CLEAR`, `PRINT`&`COPY`. These do different thing but I'm too lazy to document them.
+There are 256 available "slots" in the "memory", which you can fill with [decimal numbers which correlate to ASCII characters](https://www.asciitable.com/). There are 7 Opcodes at the moment: `POS`, `GET`, `SET`, `DEBUG`, `CLEAR`, `PRINT` & `COPY`. These do different things but I'm too lazy to document them.
 
 ```
 POS:0
