@@ -68,6 +68,6 @@ lines.forEach((line) => {
     } else if (opcode === "COPY") {
         memory[currentAdress] = memory[Number(args[0])];
     } else {
-        console.log("congratulations, you broken logic");
+        console.log("congratulations, you've broken logic");
     }
 });
