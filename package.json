@@ -1,0 +1,18 @@
+{
+    "name": "typescript-jit",
+    "version": "1.0.0",
+    "description": "A just-in-time compiler (aka. interpreter) written in TypeScript. Why? I don't know.",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node dist/index.js",
+        "ts:dev": "tsc --watch",
+        "ts:build": "tsc"
+    },
+    "author": "Josey C. Wörmann (github.com/joseywoermann)",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^17.0.2",
+        "typescript": "^4.5.4"
+    }
+}
